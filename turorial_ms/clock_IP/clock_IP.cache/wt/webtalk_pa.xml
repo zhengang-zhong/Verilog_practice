@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Aug 06 15:41:23 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="deab15bed86445e8bdbe217e79218d75" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="CoreView" value="1" type="JavaHandler"/>
+<property name="CustomizeCore" value="1" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="RecustomizeCore" value="1" type="JavaHandler"/>
+<property name="SimulationBreak" value="1" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="2" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="5" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, clk_tb" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_BREAK, simulation_live_break" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, simulation_relaunch" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RESET, Reset Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN, Run Simulation" value="5" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 2 critical warnings" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, clk_div (clk_div.xci" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, clk_div (clk_div.xci" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, clk_tb (clk_tb.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 7, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 7, true, false, false, false, true, false" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near wire. [F:/FPGA/turorial_ms/clock_IP/clock_IP.srcs/sim_1/new/clk_tb.v:29]. ], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, launch_simulation. , [USF-XSim 62] 'compile' step failed with error(s" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Arty A7-35 ; digilentinc.com ; E.0 ; xc7a35ticsg324-1L ; 324 ; 1.0 ; 50 ; 90 ; 41600 ; 0 ; 0 ; 210 ; 20800 ; 5 ; 1 ; 100 ; -40 ; 100 ; I ; 0.98 ; 0.92 ; 0.92 ; 0, 1, Arty A7-35, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Arty A7-35 ; digilentinc.com ; E.0 ; xc7a35ticsg324-1L ; 324 ; 1.0 ; 50 ; 90 ; 41600 ; 0 ; 0 ; 210 ; 20800 ; 5 ; 1 ; 100 ; -40 ; 100 ; I ; 0.98 ; 0.92 ; 0.92 ; 0, 1, Arty A7-35, 0, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, key_debounce" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, 20" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, s, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_IN, Waveform Viewer_zoom_in" value="12" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_OUT, Waveform Viewer_zoom_out" value="8" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 119, 153" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 176, 201, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 289, 199, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 315, 428, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 329, 206, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 329, 277, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 364, 120" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 364, 184" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 367, 201, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_UNDO, Undo" value="1" type="GuiResourceData"/>
+<property name="clk_div.v, 40, 334" value="1" type="GuiResourceData"/>
+<property name="clk_div.v, 41, 342" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 101, 463" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 108, 465" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 108, 557" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 11, 288" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 110, 266" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 111, 240" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 112, 555, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 113, 501" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 113, 539" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 113, 559" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 116, 545" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 128, 210" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 129, 453" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 13, 554" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 145, 542" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 16, 561" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 166, 173" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 2, 296" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 24, 422" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 245, 490" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 304, 514" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 31, 521" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 327, 447" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 36, 292" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 38, 135" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 4, 417" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 51, 346" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 56, 169" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 62, 450" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 67, 556" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 74, 378" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 81, 554" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 87, 417" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 90, 485" value="1" type="GuiResourceData"/>
+<property name="clk_tb.v, 97, 485" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="54" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="36" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

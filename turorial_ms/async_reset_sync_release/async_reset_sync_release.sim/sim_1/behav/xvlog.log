@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/async_reset_sync_release/async_reset_sync_release.srcs/sources_1/new/sys_rst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sys_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/async_reset_sync_release/async_reset_sync_release.srcs/sources_1/new/top_func.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_func
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/async_reset_sync_release/async_reset_sync_release.srcs/sim_1/new/top_func_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_func_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/async_reset_sync_release/async_reset_sync_release.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

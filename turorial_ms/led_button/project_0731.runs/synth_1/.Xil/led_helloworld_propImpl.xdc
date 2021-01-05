@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:F:/FPGA/Projekte/project_0731/project_0731.srcs/constrs_1/new/led_helloworld_constraint.xdc rfile:../../../project_0731.srcs/constrs_1/new/led_helloworld_constraint.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H5 [get_ports led]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN A8 [get_ports key]

@@ -1,0 +1,41 @@
+15:13:29 INFO  : Launching XSDB server: xsdb.bat -interactive F:\FPGA\turorial_ms\temp3\temp3.sdk\temp_xsdb_launch_script.tcl
+15:13:33 INFO  : XSDB server has started successfully.
+15:13:33 INFO  : Processing command line option -hwspec F:/FPGA/turorial_ms/temp3/temp3.sdk/design_1_wrapper.hdf.
+15:15:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+15:15:09 INFO  : FPGA configured successfully with bitstream "F:/FPGA/turorial_ms/temp3/temp3.sdk/design_1_wrapper_hw_platform_0/download.bit"
+15:15:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+15:15:15 INFO  : 'fpga -state' command is executed.
+15:15:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:15 INFO  : Jtag cable 'Digilent Arty 210319A2799DA' is selected.
+15:15:15 INFO  : 'jtag frequency' command is executed.
+15:15:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:15 INFO  : Hardware design information is loaded from 'F:/FPGA/turorial_ms/temp3/temp3.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+15:15:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:15 INFO  : Processor reset is completed for 'microblaze_0'.
+15:15:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:15 INFO  : The application 'F:/FPGA/turorial_ms/temp3/temp3.sdk/temp/Debug/temp.elf' is downloaded to processor 'microblaze_0'.
+15:15:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+loadhw F:/FPGA/turorial_ms/temp3/temp3.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+dow F:/FPGA/turorial_ms/temp3/temp3.sdk/temp/Debug/temp.elf
+----------------End of Script----------------
+
+15:15:16 INFO  : Memory regions updated for context MicroBlaze #0
+15:15:16 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:16 INFO  : 'con' command is executed.
+15:15:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+con
+----------------End of Script----------------
+
+15:15:16 INFO  : Launch script is exported to file 'F:\FPGA\turorial_ms\temp3\temp3.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local_temp.elf.tcl'
+15:20:31 INFO  : Disconnected from the channel tcfchan#1.
+15:30:24 INFO  : Launching XSDB server: xsdb.bat -interactive F:\FPGA\turorial_ms\temp3\temp3.sdk\temp_xsdb_launch_script.tcl
+15:30:27 INFO  : XSDB server has started successfully.
+15:30:27 INFO  : Processing command line option -hwspec F:/FPGA/turorial_ms/temp3/temp3.sdk/design_1_wrapper.hdf.
+15:30:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

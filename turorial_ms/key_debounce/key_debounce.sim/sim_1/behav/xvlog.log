@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/key_debounce/key_debounce.srcs/sources_1/new/key_debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/key_debounce/key_debounce.srcs/sim_1/new/key_debounce_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_debounce_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/key_debounce/key_debounce.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

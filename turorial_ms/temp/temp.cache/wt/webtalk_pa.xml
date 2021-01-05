@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Fri Aug 07 16:27:18 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="27ad3cf36e3b496db1c9ba1be47b88ec" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CreateBlockDesign" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="4" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="SaveRSBDesign" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="GPIO Width, 4" value="2" type="GuiResourceData"/>
+<property name="NEXT, Next " value="8" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, [All Automation (0 out of 2 selected" value="7" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, [All Automation (1 out of 2 selected" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, [All Automation (2 out of 2 selected" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI GPIO, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI GPIO, 0, AXI GPIO, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI GPIO, 0, AXI GPIO, 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI UART16550, 0, AXI UART16550, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Clocking Wizard, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Clocking Wizard, 2, Clocking Wizard, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Clocking Wizard, 2, Clocking Wizard, 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_CREATE_VECTOR, Create vector:, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_DIRECTION, Output, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_FROM, 26" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_FROM, 27" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_FROM, 28" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_FROM, 29" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_FROM, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_FROM, 30" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, LED" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Create Block Design], 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Arty A7-35 ; digilentinc.com ; E.0 ; xc7a35ticsg324-1L ; 324 ; 1.0 ; 50 ; 90 ; 41600 ; 0 ; 0 ; 210 ; 20800 ; 5 ; 1 ; 100 ; -40 ; 100 ; I ; 0.98 ; 0.92 ; 0.92 ; 0, 1, Arty A7-35, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Part, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, Parts" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, xc7a35tcsg324-1 ; 324 ; 50 ; 90 ; 41600 ; 0 ; 0 ; 210 ; 20800 ; 5 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0, 24, xc7a35tcsg324-1, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, xc7a35ticsg324-1L ; 324 ; 50 ; 90 ; 41600 ; 0 ; 0 ; 210 ; 20800 ; 5 ; 1 ; 100 ; -40 ; 100 ; I ; 0.98 ; 0.92 ; 0.92 ; 0 ; 0, 25, xc7a35ticsg324-1L, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, xc7a75ticsg324-1L ; 324 ; 105 ; 180 ; 94400 ; 0 ; 0 ; 210 ; 47200 ; 6 ; 1 ; 100 ; -40 ; 100 ; I ; 0.98 ; 0.92 ; 0.92 ; 0 ; 0, 37, xc7a75ticsg324-1L, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, temp" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, temp2" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, Run Connection Automation" value="4" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, Button, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, LED" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SaveProjectUtils_DONT_SAVE, Don't Save" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, [root, Unconnected Clocks, axi_gpio_0/s_axi_aclk], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_PANEL, [root, Unconnected Clocks], 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderMenu_ADD_IP, Add IP..." value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderMenu_CREATE_PORT, Create Port..." value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, IP Documentation" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_ADD_IP, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_ADD_IP, System_RSB_ADD_IP" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_ORIENTATION, Orientation" value="1" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, PAResourceTtoZ.XPG_BasePanel_IP_SYMBOL, IP Symbol, 0" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="8" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_PROPERTIES, External Interface Properties..." value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="57" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="37" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

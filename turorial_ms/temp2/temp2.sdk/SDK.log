@@ -1,0 +1,100 @@
+17:31:31 INFO  : Launching XSDB server: xsdb.bat -interactive F:\FPGA\turorial_ms\temp2\temp2.sdk\temp_xsdb_launch_script.tcl
+17:31:34 INFO  : XSDB server has started successfully.
+17:31:37 INFO  : Processing command line option -hwspec F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper.hdf.
+14:29:11 INFO  : Launching XSDB server: xsdb.bat -interactive F:\FPGA\turorial_ms\temp2\temp2.sdk\temp_xsdb_launch_script.tcl
+14:29:14 INFO  : XSDB server has started successfully.
+14:29:21 INFO  : Processing command line option -hwspec F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper.hdf.
+14:29:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:34:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:36:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:36:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+14:36:24 INFO  : FPGA configured successfully with bitstream "F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/download.bit"
+14:36:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+14:36:55 INFO  : 'fpga -state' command is executed.
+14:36:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:36:55 INFO  : Jtag cable 'Digilent Arty 210319A2799DA' is selected.
+14:36:55 INFO  : 'jtag frequency' command is executed.
+14:36:55 INFO  : Context for processor 'microblaze_0' is selected.
+14:36:55 INFO  : Hardware design information is loaded from 'F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+14:36:55 INFO  : Context for processor 'microblaze_0' is selected.
+14:36:55 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+14:36:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+loadhw F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+14:37:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:37:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+14:37:33 INFO  : FPGA configured successfully with bitstream "F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/download.bit"
+14:37:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+14:37:40 INFO  : 'fpga -state' command is executed.
+14:37:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:37:40 INFO  : Jtag cable 'Digilent Arty 210319A2799DA' is selected.
+14:37:40 INFO  : 'jtag frequency' command is executed.
+14:37:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:40 INFO  : Hardware design information is loaded from 'F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+14:37:41 INFO  : Context for processor 'microblaze_0' is selected.
+14:37:41 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+14:37:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+loadhw F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+14:38:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+14:38:58 INFO  : 'fpga -state' command is executed.
+14:38:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:38:58 INFO  : Jtag cable 'Digilent Arty 210319A2799DA' is selected.
+14:38:58 INFO  : 'jtag frequency' command is executed.
+14:38:58 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:58 INFO  : Hardware design information is loaded from 'F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+14:38:58 INFO  : Context for processor 'microblaze_0' is selected.
+14:38:58 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+14:38:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+loadhw F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+14:52:29 INFO  : Launching XSDB server: xsdb.bat -interactive F:\FPGA\turorial_ms\temp2\temp2.sdk\temp_xsdb_launch_script.tcl
+14:52:32 INFO  : XSDB server has started successfully.
+14:52:34 INFO  : Processing command line option -hwspec F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper.hdf.
+14:52:34 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:52:34 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1597063858855,  Project:1596814187040
+14:52:34 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper.hdf.
+14:52:34 INFO  : Copied contents of F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+14:52:35 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:52:40 INFO  : 
+14:52:41 INFO  : Updating hardware inferred compiler options for test_anty.
+14:52:41 INFO  : Clearing existing target manager status.
+14:54:26 INFO  : Launching XSDB server: xsdb.bat -interactive F:\FPGA\turorial_ms\temp2\temp2.sdk\temp_xsdb_launch_script.tcl
+14:54:28 INFO  : XSDB server has started successfully.
+14:54:28 INFO  : Processing command line option -hwspec F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper.hdf.
+14:54:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:55:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:55:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+14:55:20 INFO  : FPGA configured successfully with bitstream "F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/download.bit"
+14:55:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2799DA" && level==0} -index 0' command is executed.
+14:55:28 INFO  : 'fpga -state' command is executed.
+14:55:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:55:29 INFO  : Jtag cable 'Digilent Arty 210319A2799DA' is selected.
+14:55:29 INFO  : 'jtag frequency' command is executed.
+14:55:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:55:29 INFO  : Hardware design information is loaded from 'F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+14:55:29 INFO  : Context for processor 'microblaze_0' is selected.
+14:55:29 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+14:55:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+loadhw F:/FPGA/turorial_ms/temp2/temp2.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2799DA"} -index 0
+rst -processor
+----------------End of Script----------------
+

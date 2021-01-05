@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Aug 03 15:22:41 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="2bf7ca8ac36f4b07be749352a3ddf62f" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
+<property name="NEXT, Next " value="6" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, Add or create design sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, dual_port_ram" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, dual_port_ram_tb" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN, Run Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 5 critical warnings" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 8 critical warnings" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, dual_port_ram (dual_port_ram.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 5, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, dual_port_ram_tb (dual_port_ram_tb.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 3, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4, true, false, false, false, true, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Project Settings], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near ;. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:25]. ], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-870] Macro b1 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:47]. , [HDL 9-870] Macro b0 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:65]. ], 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-870] Macro b1 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:47]. , [HDL 9-870] Macro h01 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:52]. ], 3, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-870] Macro b1 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:47]. , [HDL 9-870] Macro h02 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:56]. ], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-870] Macro b1 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:47]. , [HDL 9-870] Macro h55 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:55]. ], 4, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-870] Macro b1 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:47]. ], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-870] Macro b1 is not defined. [F:/FPGA/turorial_ms/dual_port_ram/dual_port_ram.srcs/sim_1/new/dual_port_ram_tb.v:47]. ], 2, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Arty A7-35 ; digilentinc.com ; E.0 ; xc7a35ticsg324-1L ; 324 ; 1.0 ; 50 ; 90 ; 41600 ; 0 ; 0 ; 210 ; 20800 ; 5 ; 1 ; 100 ; -40 ; 100 ; I ; 0.98 ; 0.92 ; 0.92 ; 0, 1, Arty A7-35, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Arty A7-35 ; digilentinc.com ; E.0 ; xc7a35ticsg324-1L ; 324 ; 1.0 ; 50 ; 90 ; 41600 ; 0 ; 0 ; 210 ; 20800 ; 5 ; 1 ; 100 ; -40 ; 100 ; I ; 0.98 ; 0.92 ; 0.92 ; 0, 1, Arty A7-35, 0, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, bidr_port" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="2" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="5" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 172, 364, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 472, 373" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 495, 362, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 505, 249, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 612, 148" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 635, 185" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 670, 128" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 672, 178" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 742, 151" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 844, 170" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 884, 176, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 895, 128" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 906, 178" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, q_a], 7, false" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 102, 408" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 106, 324" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 113, 278" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 113, 290" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 118, 125" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 118, 125, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 131, 413" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 137, 126" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 154, 465" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 191, 350" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 282, 429" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 303, 561" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 359, 535" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 360, 205" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 365, 452" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 368, 393" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 59, 377" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 64, 501" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 76, 389" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 78, 399" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 79, 479" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram.v, 89, 451" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 101, 448" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 104, 382" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 105, 497" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 109, 433" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 109, 433, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 111, 222" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 126, 317" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 129, 490" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 13, 418" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 13, 418, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 135, 328" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 139, 364" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 142, 452" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 142, 535" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 147, 240" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 152, 353" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 165, 314" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 167, 363" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 167, 363, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 172, 447" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 172, 447, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 175, 335" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 177, 329" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 177, 329, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 180, 449" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 180, 449, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 181, 335" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 181, 452" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 189, 541" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 243, 335" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 262, 505" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 269, 485" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 27, 412" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 276, 494" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 328, 481" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 41, 418" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 41, 418, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 43, 413" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 44, 412, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 46, 446" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 46, 446, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 47, 466" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 47, 466, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 48, 364" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 50, 341" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 50, 419" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 50, 430" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 50, 430, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 60, 492" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 60, 492, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 61, 250" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 70, 421" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 70, 421, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 72, 410" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 73, 400" value="2" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 73, 400, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 76, 413" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 76, 413, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 77, 341, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 77, 381" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 77, 381, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 78, 341" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 84, 413" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 85, 472" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 85, 472, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 86, 404" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 89, 463" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 9, 403" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 90, 400" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 96, 433" value="1" type="GuiResourceData"/>
+<property name="dual_port_ram_tb.v, 98, 427" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="52" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="34" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

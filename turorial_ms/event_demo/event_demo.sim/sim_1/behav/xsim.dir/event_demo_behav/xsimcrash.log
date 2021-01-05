@@ -1,0 +1,67 @@
+Exception at PC 0x00007FFE2A22A799
+Unable to capture context for thread 20116 in process 13972, can not generate back trace
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Unable to capture context for thread 20084 in process 13972, can not generate back trace
+Unable to capture context for thread 16628 in process 13972, can not generate back trace
+Exception at PC 0x00007FFD9B0CBB93
+Printing stacktrace...
+
+Unable to capture context for thread 16628 in process 13972, can not generate back trace
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+[0]  [0x00007FFD9B0CBB93]
+[1]  [0x00007FFD9B0CBB93]
+[2]  [0x00007FFD9B0CB4A1]
+[3]  [0x00007FFD9B0CB3EF]
+[4]  [0x00007FFD9B0B19FE]
+[5]  [0x00007FFD9B0B0ED1]
+[6]  [0x00007FFD9B0B0D76]
+[7]  [0x00007FFD9B0579F6]
+[8]  [0x00007FFD9B047AFB]
+[9]  [0x00007FFD9B16E90A]
+[10]  [0x00007FFD9B189F87]
+[11]  [0x00007FFD9B18A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFE2B257BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFE2C54CE51]
+Done
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799
+Exception at PC 0x00007FFE2A22A799

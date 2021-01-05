@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/bidr_port/bidr_port.srcs/sources_1/new/bidr_port_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bidr_port_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/bidr_port/bidr_port.srcs/sim_1/new/bidr_port_ram_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bidr_port_ram_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/turorial_ms/bidr_port/bidr_port.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
